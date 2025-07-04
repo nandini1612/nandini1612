@@ -1,9 +1,12 @@
 ## Hi there 👋
 
 <div align="center"> 
+  <img src="https://github.com/nandini1612/nandini1612/Coding Mode On.jpeg/blob/main/software-developer.png" alt="Banner of a developer sitting in front of a desk">
   <p>Visitor count</p>
   <img src="https://profile-counter.glitch.me/nandini1612/count.svg" alt="Visitor's Count" />
 </div>
+
+
 
 <!--
 **nandini1612/nandini1612** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
