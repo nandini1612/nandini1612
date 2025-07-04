@@ -4,9 +4,9 @@
   <p>Visitor count</p>
   <img src="https://profile-counter.glitch.me/nandini1612/count.svg" alt="Visitor's Count" />
 </div>
-#Image
-![coding setup image](https://github.com/user-attachments/assets/831710e5-66e8-4a8f-be3d-8eb5007e8c35)
 
+
+![6bc8b13c-a475-4851-ba5f-3a6e974c13fe](https://github.com/user-attachments/assets/83148c36-9b13-4436-afe9-81676b772875)
 
 
 <!--
