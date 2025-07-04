@@ -1,13 +1,11 @@
 ## Hi there 👋
 
+![6bc8b13c-a475-4851-ba5f-3a6e974c13fe](https://github.com/user-attachments/assets/83148c36-9b13-4436-afe9-81676b772875)
+
 <div align="center"> 
   <p>Visitor count</p>
   <img src="https://profile-counter.glitch.me/nandini1612/count.svg" alt="Visitor's Count" />
 </div>
-
-
-![6bc8b13c-a475-4851-ba5f-3a6e974c13fe](https://github.com/user-attachments/assets/83148c36-9b13-4436-afe9-81676b772875)
-
 
 <!--
 **nandini1612/nandini1612** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
