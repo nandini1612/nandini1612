@@ -1,10 +1,6 @@
-## Hey you
+## Hey!
 
 ![6bc8b13c-a475-4851-ba5f-3a6e974c13fe](https://github.com/user-attachments/assets/83148c36-9b13-4436-afe9-81676b772875)
-<div align="center"> 
-  <p>Visitor count</p>
-  <img src="https://profile-counter.glitch.me/nandini1612/count.svg" alt="Visitor's Count" />
-</div>
 
 ## I am Nandini Saxena
 >An aspiring data scientist with a deep curiosity for how data and AI can solve real-world problems, tell meaningful stories, and make technology more human.
