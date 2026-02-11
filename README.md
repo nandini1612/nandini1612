@@ -10,8 +10,8 @@
 ## 🛠️ Languages and Tools
 <br>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=java,spring,ts,flask,gcp,nodejs,react,maven,mongodb,postgres,py,ai,c" />
-  <img src="https://skillicons.dev/icons?i=html,css,vue,tailwind,js,docker,electron,vue,mysql,postman,git,opencv,figma" />
+  <img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,sklearn,anaconda,opencv" />
+  <img src="https://skillicons.dev/icons?i=fastapi,postgres,docker,ts,react,nextjs,expo,solidity,git" />
 </p>
 <br>
 
