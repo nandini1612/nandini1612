@@ -35,9 +35,11 @@
 <br>
 
 <div align=center>
-  <img width=390 src="https://github-readme-stats.vercel.app/api?username=nandini1612&theme=transparent&count_private=true&show_icons=true&rank_icon=github&locale=en" alt="Nandini's GitHub Stats" />
+
+  [![GitHub Stats](https://github-stats-extended.vercel.app/api/top-langs?username=nandini1612&layout=donut&langs_count=6&theme=vision-friendly-dark)](https://github-stats-extended.vercel.app/api/top-langs?username=nandini1612&layout=donut&langs_count=6&theme=vision-friendly-dark)
+
   <img width=390 src="https://github-readme-streak-stats.herokuapp.com/?user=nandini1612&theme=transparent&count_private=true&border_radius=10&locale=en" alt="Nandini's" />
-  <img width=325 src="https://github-readme-stats.vercel.app/api/top-langs?username=nandini1612&theme=transparent&layout=donut&hide=css&langs_count=8&border_radius=10&show_icons=true&locale=en" alt="Nandini's Most Used Languages" />
+
 </div>
 
 <hr>
