@@ -3,9 +3,9 @@
 ![6bc8b13c-a475-4851-ba5f-3a6e974c13fe](https://github.com/user-attachments/assets/83148c36-9b13-4436-afe9-81676b772875)
 
 ## I am Nandini Saxena
->An aspiring data scientist with a deep curiosity for how data and AI can solve real-world problems, tell meaningful stories, and make technology more human.
->-🔭 I’m currently working on building a **data science project** using economic trends
->-🌱 I’m currently learning **Statistics and Python**
+>An aspiring data scientist working with time-series data, sequence modelling etc. I am learning more about Deep Learning and Statistics right now.
+>- Currently working on a research paper regarding predicting GPS velocity in normalised space using a Transformer for UAV.
+>- Portfolio Website: 
 
 ## 🛠️ Languages and Tools
 <br>
