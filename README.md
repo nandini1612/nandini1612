@@ -30,18 +30,7 @@
 </div>  
 <hr>
 
-## Stats
-
 <br>
-
-<div align=center>
-
-  [![GitHub Stats](https://github-stats-extended.vercel.app/api/top-langs?username=nandini1612&layout=donut&langs_count=6&theme=vision-friendly-dark)](https://github-stats-extended.vercel.app/api/top-langs?username=nandini1612&layout=donut&langs_count=6&theme=vision-friendly-dark)
-
-  <img width=390 src="https://github-readme-streak-stats.herokuapp.com/?user=nandini1612&theme=transparent&count_private=true&border_radius=10&locale=en" alt="Nandini's" />
-
-</div>
-
 <hr>
 
 
