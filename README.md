@@ -11,27 +11,25 @@
 >- I build end-to-end ML pipelines/services, from handling raw, messy data to deploying production-ready models that serve real-time predictions.
 >- Portfolio Website: https://nandini1612-github-io.vercel.app/
 
-## Tech Stack
-
-**Languages:**  
+#### Tech Stack
+> **Languages:**  
 Python · SQL · Java · JavaScript · C
 
-**Machine Learning / Deep Learning:**  
+>**Machine Learning / Deep Learning:**  
 PyTorch · scikit-learn · LightGBM · XGBoost · Hugging Face Transformers
 
-**ML Methods:**  
+>**ML Methods:**  
 Time-series forecasting · LSTM · TCN · Attention · SHAP · Statistical analysis · Temporal cross-validation · Ablation studies
 
-**Backend / Data:**  
+>**Backend / Data:**  
 FastAPI · Flask · Spring Boot · PostgreSQL · dbt · Apache Airflow
 
-**Tools / Infrastructure:**  
+>**Tools / Infrastructure:**  
 Git · Docker · GitHub Actions · Terraform · AWS
 
-## Projects
+#### Projects
 
 A few of the things I've worked on:
-
 - **GateIO** — deep learning models for UAV velocity prediction during GPS outages.
 - **Fraud Detection** — an end-to-end fraud detection service with model explanations and drift monitoring.
 - **CashPulse** — a cash-flow forecasting and anomaly detection pipeline.
@@ -39,14 +37,10 @@ A few of the things I've worked on:
 
 You can find the rest of my projects and experiments in my repositories.
 
-## A little outside of tech
+#### A little outside of tech
+> I write occasionally about things I'm learning in machine learning and computer science, and I have a background in **Bharatanatyam**. I'm also learning **German** and currently working towards B1. I love working on arts and crafts.
 
-I write occasionally about things I'm learning in machine learning and computer science, and I have a background in **Bharatanatyam**.
-
-I'm also learning **German** and currently working towards B1.
-
-## Let's connect
-
+#### Let's connect
 I'm always interested in talking about **machine learning, data science, research, or interesting technical problems**.
 
 - [LinkedIn](https://www.linkedin.com/in/nandini-saxena1111)
