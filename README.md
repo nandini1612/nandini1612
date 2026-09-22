@@ -11,32 +11,48 @@
 >- I build end-to-end ML pipelines/services, from handling raw, messy data to deploying production-ready models that serve real-time predictions.
 >- Portfolio Website: https://nandini1612-github-io.vercel.app/
 
-## Languages and Tools
-<br>
-<p>
-  <ul>Languages</ul>: Python, SQL, Java, JavaScript, C 
-  <ul>ML/DL:</ul> PyTorch, LightGBM, XGBoost, scikit-learn, HuggingFace Transformers
-  <ul>Focus areas / Methodology:</ul> time-series forecasting, sequence modeling (LSTM, TCN+attention), model interpretability (SHAP), experiment design (temporal cross-validation, ablation studies, statistical significance testing)
-  <ul>Backend / MLOps:</ul> FastAPI, Flask, Spring Boot, PostgreSQL, Docker, Apache Airflow, Terraform, AWS, Prometheus, MLflow, dbt, Streamlit, GitHub Actions/CI-CD 
-</p>
-<br>
+## Tech Stack
 
-## Contact me:
-<br>
-<div align="center">
-  <a href="nandinisaxenawork@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=red" />
-  </a>
-  <a href="https://linkedin.com/in/nandini1111" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" />
-  </a>
-  <a href="https://medium.com/@nandinisaxenawork" target="_blank">
-    <img src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white" target="_blank" />
-  </a>
-</div>  
-<hr>
+**Languages:**  
+Python · SQL · Java · JavaScript · C
 
+**Machine Learning / Deep Learning:**  
+PyTorch · scikit-learn · LightGBM · XGBoost · Hugging Face Transformers
 
+**ML Methods:**  
+Time-series forecasting · LSTM · TCN · Attention · SHAP · Statistical analysis · Temporal cross-validation · Ablation studies
+
+**Backend / Data:**  
+FastAPI · Flask · Spring Boot · PostgreSQL · dbt · Apache Airflow
+
+**Tools / Infrastructure:**  
+Git · Docker · GitHub Actions · Terraform · AWS
+
+## Projects
+
+A few of the things I've worked on:
+
+- **GateIO** — deep learning models for UAV velocity prediction during GPS outages.
+- **Fraud Detection** — an end-to-end fraud detection service with model explanations and drift monitoring.
+- **CashPulse** — a cash-flow forecasting and anomaly detection pipeline.
+- **Phenological Mismatch Observatory** — a weakly supervised computer vision project evaluated using independent ground-truth data.
+
+You can find the rest of my projects and experiments in my repositories.
+
+## A little outside of tech
+
+I write occasionally about things I'm learning in machine learning and computer science, and I have a background in **Bharatanatyam**.
+
+I'm also learning **German** and currently working towards B1.
+
+## Let's connect
+
+I'm always interested in talking about **machine learning, data science, research, or interesting technical problems**.
+
+- [LinkedIn](https://www.linkedin.com/in/nandini-saxena1111)
+- [Medium](https://medium.com/@nandinisaxenawork)
+- [Portfolio](https://nandini1612-github-io.vercel.app/)
+- [Email](mailto:nandinisaxenawork@gmail.com)
 
 <!--
 **nandini1612/nandini1612** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
