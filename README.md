@@ -3,15 +3,21 @@
 ![6bc8b13c-a475-4851-ba5f-3a6e974c13fe](https://github.com/user-attachments/assets/83148c36-9b13-4436-afe9-81676b772875)
 
 ## I am Nandini Saxena
->An aspiring data scientist working with time-series data, sequence modelling etc. I am learning more about Deep Learning and Statistics right now.
->- Currently working on a research paper regarding predicting GPS velocity in normalised space using a Transformer for UAV.
->- Portfolio Website: 
+>A final-year Computer Science bachelor's student (GPA 9.25) focused on Data Science and Machine Learning. Currently working on research papers titled as the following:
+>- "Predicting UAV Velocity through GPS outages using Yaw-rate-gated Deep Learning Models" 
+>- "Velocity Features Are Redundant on Real Fraud Data"
 
-## 🛠️ Languages and Tools
+>- **Focus area**: time-series forecasting, sequence modeling (LSTM, TCN+attention), model interpretability (SHAP), and experiment design (temporal cross-validation, ablation studies, statistical significance testing).
+>- I build end-to-end ML pipelines/services, from handling raw, messy data to deploying production-ready models that serve real-time predictions.
+>- Portfolio Website: https://nandini1612-github-io.vercel.app/
+
+## Languages and Tools
 <br>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,sklearn,anaconda,opencv" />
-  <img src="https://skillicons.dev/icons?i=fastapi,postgres,docker,ts,react,nextjs,expo,solidity,git" />
+<p>
+  <ul>Languages</ul>: Python, SQL, Java, JavaScript, C 
+  <ul>ML/DL:</ul> PyTorch, LightGBM, XGBoost, scikit-learn, HuggingFace Transformers
+  <ul>Focus areas / Methodology:</ul> time-series forecasting, sequence modeling (LSTM, TCN+attention), model interpretability (SHAP), experiment design (temporal cross-validation, ablation studies, statistical significance testing)
+  <ul>Backend / MLOps:</ul> FastAPI, Flask, Spring Boot, PostgreSQL, Docker, Apache Airflow, Terraform, AWS, Prometheus, MLflow, dbt, Streamlit, GitHub Actions/CI-CD 
 </p>
 <br>
 
