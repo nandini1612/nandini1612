@@ -1,64 +1,89 @@
-## Hey!
+<div align="center">
 
-![6bc8b13c-a475-4851-ba5f-3a6e974c13fe](https://github.com/user-attachments/assets/83148c36-9b13-4436-afe9-81676b772875)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/descent-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/descent-light.svg">
+  <img src="assets/descent-dark.svg" alt="Three optimizers descend the same loss surface from the same start. Plain SGD settles in a local minimum; momentum and Adam reach the global one." width="100%">
+</picture>
 
-## I am Nandini Saxena
->A final-year Computer Science bachelor's student (GPA 9.25) focused on Data Science and Machine Learning. Currently working on research papers titled as the following:
->- "Predicting UAV Velocity through GPS outages using Yaw-rate-gated Deep Learning Models" 
->- "Velocity Features Are Redundant on Real Fraud Data"
+<br><br>
 
->- **Focus area**: time-series forecasting, sequence modeling (LSTM, TCN+attention), model interpretability (SHAP), and experiment design (temporal cross-validation, ablation studies, statistical significance testing).
->- I build end-to-end ML pipelines/services, from handling raw, messy data to deploying production-ready models that serve real-time predictions.
->- Portfolio Website: https://nandini1612-github-io.vercel.app/
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/name-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/name-light.svg">
+  <img src="assets/name-dark.svg" alt="Nandini Saxena | Computer Science | Machine Learning | Data Science" width="640">
+</picture>
 
-#### Tech Stack
-> **Languages:**  
-Python · SQL · Java · JavaScript · C
+Final-year CS undergrad &nbsp;|&nbsp; GPA 9.25/10 &nbsp;|&nbsp; two papers in progress
 
->**Machine Learning / Deep Learning:**  
-PyTorch · scikit-learn · LightGBM · XGBoost · Hugging Face Transformers
+[Portfolio](https://nandini1612-github-io.vercel.app/) &nbsp;|&nbsp; [LinkedIn](https://www.linkedin.com/in/nandini-saxena1111) &nbsp;|&nbsp; [Medium](https://medium.com/@nandinisaxenawork) &nbsp;|&nbsp; [Email](mailto:nandinisaxenawork@gmail.com)
 
->**ML Methods:**  
-Time-series forecasting · LSTM · TCN · Attention · SHAP · Statistical analysis · Temporal cross-validation · Ablation studies
+<sub>[Research](#research) &nbsp;|&nbsp; [Projects](#projects) &nbsp;|&nbsp; [Stack](#stack) &nbsp;|&nbsp; [Outside tech](#outside-tech)</sub>
 
->**Backend / Data:**  
-FastAPI · Flask · Spring Boot · PostgreSQL · dbt · Apache Airflow
+</div>
 
->**Tools / Infrastructure:**  
-Git · Docker · GitHub Actions · Terraform · AWS
+---
 
-#### Projects
+I like problems where the first answer is probably wrong. So far that has mostly meant **time series and tabular ML**: drones losing GPS, fraud, cash flow, synthetic data. I am still widening that. What stays the same is how I work: leakage-free splits, ablations, significance tests, and finding out which part of a model actually earns its keep. Then I ship it as something that runs: an API, a pipeline, a live demo.
 
-A few of the things I've worked on:
-- **GateIO** — deep learning models for UAV velocity prediction during GPS outages.
-- **Fraud Detection** — an end-to-end fraud detection service with model explanations and drift monitoring.
-- **CashPulse** — a cash-flow forecasting and anomaly detection pipeline.
-- **Phenological Mismatch Observatory** — a weakly supervised computer vision project evaluated using independent ground-truth data.
+## Research
 
-You can find the rest of my projects and experiments in my repositories.
+**Predicting UAV Velocity through GPS outages using Yaw-rate-gated Deep Learning Models** &nbsp;|&nbsp; [preprint](https://doi.org/10.5281/zenodo.22853978) &nbsp;|&nbsp; [code](https://github.com/nandini1612/gateio)<br>
+When GPS drops out, a drone has to guess where it is from inertial data alone. GateIO predicts the *change* from the last known velocity, with a gate that holds course on straight flight and lets the model learn on turns. Under leave-one-flight-out evaluation it ends a 10 s outage **11.2 m** off on average, about **7.5× closer than a tuned EKF** and roughly 10× closer on turns.
 
-#### A little outside of tech
-> I write occasionally about things I'm learning in machine learning and computer science, and I have a background in **Bharatanatyam**. I'm also learning **German** and currently working towards B1. I love working on arts and crafts.
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/outage-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/outage-light.svg">
+  <img src="assets/outage-dark.svg" alt="Simulated GPS outage: the aircraft turns after GPS is lost while the hold-last-velocity estimate keeps flying straight, opening an endpoint drift. Below, measured mean drift after 10 s: GateIO-LSTM 11.2 m, GateIO-TCN 23.4, RoNIN 40.1, constant velocity 85.0, EKF 99.5." width="92%">
+</picture>
+<p><sub>The problem, simulated: GPS cuts out, the aircraft turns, and holding the last velocity can't follow. The bars are measured results from the paper.</sub></p>
+</div>
 
-#### Let's connect
-I'm always interested in talking about **machine learning, data science, research, or interesting technical problems**.
+**Velocity Features Are Redundant on Real Fraud Data** &nbsp;|&nbsp; [code](https://github.com/nandini1612/fraud-detection)<br>
+Rolling-window "velocity" features are a fraud-detection staple and rank high on importance plots. Under temporal cross-validation and capacity-matched ablations on IEEE-CIS, they add nothing once graph features are present (p = 0.23). The graph / shared-entity features are what moves AUPRC (0.545 → 0.576, p = 0.002), with a cross-dataset check on Elliptic Bitcoin.
 
-- [LinkedIn](https://www.linkedin.com/in/nandini-saxena1111)
-- [Medium](https://medium.com/@nandinisaxenawork)
-- [Portfolio](https://nandini1612-github-io.vercel.app/)
-- [Email](mailto:nandinisaxenawork@gmail.com)
+## Projects
 
-<!--
-**nandini1612/nandini1612** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+| | | |
+|---|---|---|
+| **[GateIO](https://github.com/nandini1612/gateio)** | LSTM and TCN + attention backbones for GPS-outage dead reckoning, benchmarked against EKF, constant-velocity and RoNIN | 11.2 m drift vs 99.5 m (EKF) |
+| **[Fraud Detection](https://github.com/nandini1612/fraud-detection)** | Calibrated LightGBM behind FastAPI: SHAP explanation per decision, Prometheus metrics, input-drift monitoring | AUPRC +0.031, p = 0.002 |
+| **[CashPulse](https://github.com/nandini1612/finance-health-monitor)** | Cash-flow forecasting and anomaly detection, built twice: a SQLite quickstart and a Postgres, dbt, Airflow and Terraform cloud tier | 54 tests, CI per tier, [live demo](https://finance-health-monitor.streamlit.app/) |
+| **[Verity](https://github.com/nandini1612/hierarchical-synthetic-tabular-data-generation)** | Constraint repair for synthetic tabular data. Showed that a popular "utility boost" from k-NN repair is real-data leakage | impossible rows 40% → 0% |
+| **Phenological Mismatch Observatory** | Weakly supervised computer vision, evaluated against independent ground-truth data rather than its own labels | |
 
-Here are some ideas to get you started:
+<sub>More experiments in [repositories](https://github.com/nandini1612?tab=repositories).</sub>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Stack
+
+| | |
+|---|---|
+| **Languages** | Python &nbsp;\|&nbsp; SQL &nbsp;\|&nbsp; Java &nbsp;\|&nbsp; JavaScript &nbsp;\|&nbsp; C |
+| **ML and deep learning** | PyTorch &nbsp;\|&nbsp; scikit-learn &nbsp;\|&nbsp; LightGBM &nbsp;\|&nbsp; XGBoost &nbsp;\|&nbsp; Hugging Face Transformers |
+| **Models** | LSTM &nbsp;\|&nbsp; TCN &nbsp;\|&nbsp; attention &nbsp;\|&nbsp; gradient boosting &nbsp;\|&nbsp; anomaly detection |
+| **Evaluation** | temporal cross-validation &nbsp;\|&nbsp; ablation studies &nbsp;\|&nbsp; significance testing &nbsp;\|&nbsp; SHAP |
+| **Backend** | FastAPI &nbsp;\|&nbsp; Flask &nbsp;\|&nbsp; Spring Boot |
+| **Data** | PostgreSQL &nbsp;\|&nbsp; dbt &nbsp;\|&nbsp; Apache Airflow |
+| **Infrastructure** | Docker &nbsp;\|&nbsp; GitHub Actions &nbsp;\|&nbsp; Terraform &nbsp;\|&nbsp; AWS &nbsp;\|&nbsp; Git |
+
+## Outside tech
+
+Trained in **Bharatanatyam**. Learning **German**, working towards B1. I write about what I'm learning on [Medium](https://medium.com/@nandinisaxenawork), and make things with my hands when I'm away from the keyboard.
+
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/tala-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/tala-light.svg">
+  <img src="assets/tala-dark.svg" alt="One cycle of Adi tala as a clock: 8 beats grouped as laghu 4, drutam 2, drutam 2. Three rings light up tha ka dhi mi at one, two and four syllables per beat as the hand sweeps round." width="92%">
+</picture>
+<p><sub>Adi tala, the 8-beat cycle Bharatanatyam adavus are counted in, played in real time at 60 bpm, at all three speeds.</sub></p>
+</div>
+
+Happy to talk about ML research, evaluation methodology, or any problem where the obvious metric is lying.
+
+<br>
+
+<div align="center">
+<sub>Header: SGD, momentum and Adam on one loss surface, same start, one optimizer step per frame. Every figure here is computed, not drawn, by <a href="scripts/">standard-library Python scripts</a>.</sub>
+</div>
