@@ -69,7 +69,19 @@ Rolling-window "velocity" features are a fraud-detection staple and rank high on
 
 ## Outside tech
 
-Trained in **Bharatanatyam**. Learning **German**, working towards B1. I write about what I'm learning on [Medium](https://medium.com/@nandinisaxenawork), and make things with my hands when I'm away from the keyboard.
+<img align="right" width="130" src="assets/bharatanatyam.jpg" alt="Nandini performing Bharatanatyam on stage under magenta light, arms extended, ankle bells on.">
+
+**On stage.** Trained in Bharatanatyam, and I anchor events, so I'm comfortable in front of a crowd with or without a script.
+
+**With my hands.** Art and craft, mostly. It's the one place where nothing needs a validation split.
+
+**Reading and volunteering.** These keep me pointed at things bigger than my own projects.
+
+**German.** Working towards B1, one case ending at a time.
+
+**Writing.** Notes on what I'm learning in ML and CS, on [Medium](https://medium.com/@nandinisaxenawork).
+
+<br clear="right">
 
 <div align="center">
 <picture>
