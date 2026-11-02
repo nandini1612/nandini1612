@@ -16,7 +16,7 @@
 
 Final-year BTech CSE &nbsp;|&nbsp; CGPA 9.3/10 &nbsp;|&nbsp; ex-ML intern, DRDO &nbsp;|&nbsp; two preprints
 
-[Portfolio](https://nandini1612-github-io.vercel.app/) &nbsp;|&nbsp; [LinkedIn](https://www.linkedin.com/in/nandini-saxena1111) &nbsp;|&nbsp; [Medium](https://medium.com/@nandinisaxenawork) &nbsp;|&nbsp; [Kaggle](https://www.kaggle.com/nandinisaxenaaa) &nbsp;|&nbsp; [Email](mailto:nandinisaxenawork@gmail.com)
+[<img src="assets/icons/globe.svg" height="14" align="absmiddle"> Portfolio](https://nandini1612-github-io.vercel.app/) &nbsp;|&nbsp; [<img src="assets/icons/linkedin.svg" height="14" align="absmiddle"> LinkedIn](https://www.linkedin.com/in/nandini-saxena1111/) &nbsp;|&nbsp; [<img src="assets/icons/medium.svg" height="14" align="absmiddle"> Medium](https://medium.com/@nandinisaxenawork) &nbsp;|&nbsp; [<img src="assets/icons/kaggle.svg" height="14" align="absmiddle"> Kaggle](https://www.kaggle.com/nandinisaxenaaa) &nbsp;|&nbsp; [<img src="assets/icons/orcid.svg" height="14" align="absmiddle"> ORCID](https://orcid.org/0009-0006-6751-1528) &nbsp;|&nbsp; [<img src="assets/icons/mail.svg" height="14" align="absmiddle"> Email](mailto:nandinisaxenawork@gmail.com)
 
 <sub>[Research](#research) &nbsp;|&nbsp; [Experience](#experience) &nbsp;|&nbsp; [Projects](#projects) &nbsp;|&nbsp; [Stack](#stack) &nbsp;|&nbsp; [Outside tech](#outside-tech)</sub>
 
